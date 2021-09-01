@@ -6,24 +6,79 @@
 
 
 header {
-    border-top: 1 solid black;
+    border-top: 1px solid black;
 }
 
 h1 {
     display: inline-block;
+    line-height: 50px;
+    vertical-align: bottom;
 }
 
-main {
-    background-color: rgba(231, 225, 225, 0.774);
-}
 
-.img {
-    margin: 10px 0 0 20px;
-}
 
 .container {
-    width: 1000px;
-    margin: auto;
-    background-color: white;
+    width: 100%;
     
+}
+
+.container-2 {
+    width: 800px;
+    height: 800px;
+    margin: auto;
+
+}
+.add {
+    border-bottom: 1px solid black;
+}
+
+.bottone-1 {
+    color: white;
+    background-color: rgb(59, 191, 235);
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.bottone-2 {
+    color: grey;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.uni{
+    vertical-align: middle;
+}
+
+.badge {
+    display: inline-block;
+    
+    color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 10px;
+}
+
+.blue {
+    background-color: rgb(59, 191, 235);
+}
+
+.purple {
+    background-color: purple;
+}
+
+.green {
+    background-color: green;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.pink {
+    background-color: hotpink;
+}
+
+.yellow {
+    background-color: lightgreen;
 }
