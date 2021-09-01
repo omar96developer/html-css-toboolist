@@ -17,13 +17,8 @@ h1 {
    
 }
 
-section {
+section, div {
     margin-top:10px;
-}
-
-div {
-    margin-top: 10px;
-    
 }
 
 
