@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
 }
 
 
@@ -13,23 +14,41 @@ h1 {
     display: inline-block;
     line-height: 50px;
     vertical-align: bottom;
+   
+}
+
+section {
+    margin-top:10px;
+}
+
+div {
+    margin-top: 10px;
+    
 }
 
 
-
 .container {
-    width: 100%;
+    background-color: lightgrey;
+    height: 675px;
+    padding-top: 50px;
     
 }
 
 .container-2 {
-    width: 800px;
-    height: 800px;
+    width: 80%;
+    height: 550px;
     margin: auto;
+    border-radius:5px;
+    background-color: white
+}
 
+.container-3 {
+    padding: 10px 0 0 50px;
 }
 .add {
-    border-bottom: 1px solid black;
+    border-bottom: 4px solid lightgrey;
+    
+    padding: 20px 0px 10px 50px;
 }
 
 .bottone-1 {
