@@ -1,0 +1,29 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    border-top: 1 solid black;
+}
+
+h1 {
+    display: inline-block;
+}
+
+main {
+    background-color: rgba(231, 225, 225, 0.774);
+}
+
+.img {
+    margin: 10px 0 0 20px;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    background-color: white;
+    
+}
